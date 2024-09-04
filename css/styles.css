@@ -23,9 +23,23 @@
     margin-bottom: 50px;
 }
 
+#main-text {
+    background-color: bisque;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+}
+
 .container {
     display: grid;
-    place-items: center;
+}
+
+.row img {
+    border-radius: 50%;
+}
+
+.row h3 {
+    margin-top: 50px;
 }
 
 #aboutus {
@@ -61,7 +75,6 @@ footer {
     background-position: right;
     height: 200px;
     padding: 30px;
-    
 }
 
 footer h2 {
